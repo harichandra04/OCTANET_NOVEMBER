@@ -1,0 +1,49 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* Style the features section */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+/* Style the call-to-action section */
+#cta {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 100px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the footer */
+#contact {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
